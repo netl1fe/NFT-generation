@@ -18,10 +18,7 @@ NFT Generator is a Python application that allows you to generate unique NFTs (N
 ## Installation
 
 1. Clone this repository to your local machine.
-2. Install the required dependencies by running the following command:
-   ```
-   pip install -r requirements.txt
-   ```
+2. Install the required dependencies 
 
 ## Usage
 
