@@ -149,16 +149,16 @@ class NFTGeneratorApp:
             folder_path = filedialog.askdirectory(title="Select Folder to Save NFTs")
             if folder_path:
                 zip_path = os.path.join(folder_path, "nfts.zip")
-                
-                with zipfile.ZipFile(zip_path, "w") as zip_file:
+
+                with zipfile.ZipFile(zip_path, "w", compression=zipfile.ZIP_DEFLATED, compresslevel=9) as zip_file:
                     for index, image in enumerate(self.generated_images):
                         image_path = os.path.join(folder_path, f"nft_{index + 1}.png")
-                        image.save(image_path)
+                        image.save(image_path, "PNG", compress_level=9)
                         zip_file.write(image_path, f"nft_{index + 1}.png")
                         os.remove(image_path)
-                
+
                 messagebox.showinfo("Download Complete", "All NFTs have been downloaded as a zip file.")
-        
+
 if __name__ == "__main__":
     root = tk.Tk()
     app = NFTGeneratorApp(root)
