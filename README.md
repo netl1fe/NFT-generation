@@ -39,3 +39,9 @@ NFT Generator is a Python application that allows you to generate unique NFTs (N
 ## Credits
 
 This application was created by Net1ife.
+
+## Future Improvements
+
+-Applying Metadata functionality
+-Preview Gallery
+-Rarity Settings
