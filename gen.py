@@ -59,7 +59,7 @@ class NFTGeneratorApp:
         self.generated_images = []
         self.num_nfts = 1
         
-        # Create and configure the UI elements
+
         self.trait_label = tk.Label(self.root, text="Trait Categories:")
         self.trait_label.pack()
         
