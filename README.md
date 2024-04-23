@@ -9,20 +9,9 @@ NFT Generator is a Python application that allows you to generate unique NFTs (N
 - Generate multiple NFTs: Specify the number of NFTs to generate, and the application will create unique NFTs by layering traits based on the specified sequence.
 - Preview and download: You can preview the generated NFTs and download them as a zip file.
 
-## Requirements
-
-- Python 3.x
-- tkinter
-- PIL (Python Imaging Library)
-
-## Installation
-
-1. Clone this repository to your local machine.
-2. Install the required dependencies 
-
 ## Usage
 
-1. Open a terminal or command prompt and navigate to the project directory.
+1. Open a terminal or command prompt and navigate to the file.
 2. Run the application using the following command:
    ```
    python3 gen.py
@@ -36,9 +25,6 @@ NFT Generator is a Python application that allows you to generate unique NFTs (N
 9. To download all the generated NFTs, click on the "Download All NFTs" button.
 10. Select a folder to save the NFTs, and they will be downloaded as a zip file.
 
-## Credits
-
-This application was created by Net1ife.
 
 ## Future Improvements
 
